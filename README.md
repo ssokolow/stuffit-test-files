@@ -153,4 +153,7 @@ There is no StuffIt Deluxe 2011 for Windows, so this Stuffit Deluxe 2011 hybrid 
 ![](photos/2011.jpg)
 ![](photos/2011_sealed.jpg)
 
-**Relevant License Terms:**
+While I bought this as New Old Stock, the clause in the license which would
+allow me to have purchased it used is still present:
+
+> Except as permitted by applicable law and this EULA, you will not use, copy, modify, distribute, or create derivative works from the Software or Documentation or transfer the Software or Documentation, and you will not (and will not permit any third party to) decompile, reverse engineer, disassemble, rent, lease, or loan the Software. **You may, however, transfer your rights under this EULA provided you transfer the related Documentation, this EULA and a copy of the Software to a party who agrees to accept the terms of this EULA and provided you destroy all copies of the Software (or portions thereof) remaining in your possession.**   In addition, you may transfer your rights under this EULA solely in accordance with any written instructions that the Company provides in connection with the Software.
