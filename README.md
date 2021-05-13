@@ -157,3 +157,12 @@ While I bought this as New Old Stock, the clause in the license which would
 allow me to have purchased it used is still present:
 
 > Except as permitted by applicable law and this EULA, you will not use, copy, modify, distribute, or create derivative works from the Software or Documentation or transfer the Software or Documentation, and you will not (and will not permit any third party to) decompile, reverse engineer, disassemble, rent, lease, or loan the Software. **You may, however, transfer your rights under this EULA provided you transfer the related Documentation, this EULA and a copy of the Software to a party who agrees to accept the terms of this EULA and provided you destroy all copies of the Software (or portions thereof) remaining in your possession.**   In addition, you may transfer your rights under this EULA solely in accordance with any written instructions that the Company provides in connection with the Software.
+
+## Roadmap
+
+* Given that Wikipedia says new StuffIt releases had a bad habit of introducing
+  backwards-incompatible format changes, I'll want to investigate the license
+  of Shareware StuffIt Lite releases which might run in Executor as a possible
+  way to produce a wider variety of sample archives. (Specifically, whether
+  they're the kind of Shareware that allows you to perpetually use a subset of
+  the full version's features and distribute the produced archives freely.)
