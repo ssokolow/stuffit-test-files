@@ -3,6 +3,8 @@ This repository contains a collection of minimal, legally redistributable
 StuffIt archives suitable for inclusion in test suites for programs that
 incorporate StuffIt extraction functionality.
 
+**See Also:** [RAR Test Files](https://github.com/ssokolow/rar-test-files)
+
 ## Explain
 
 Since there are no free tools I know of for creating
