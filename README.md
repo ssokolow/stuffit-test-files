@@ -154,6 +154,11 @@ repository is for SIT/SITX self-extractors, not Zip ones.
 
 I received this copy as sealed New Old Stock.
 
+![Invoice for Stuffit Deluxe 2011 CD](photos/stuffit_2011_invoice.jpg)
+
+(Sorry for the quality. Upgrading my OS broke my scanner and I haven't had time
+to track down a solution, so I just had to take a photo.)
+
 There is no StuffIt Deluxe 2011 for Windows, so this Stuffit Deluxe 2011 hybrid CD contains Stuffit Deluxe 2010 for Windows users.
 
 ![](photos/2011.jpg)
