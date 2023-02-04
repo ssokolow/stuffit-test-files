@@ -25,14 +25,43 @@ test files.
 
 First, the contents are the same test files I created from scratch and released
 into the public domain for my
-[RAR test files](https://github.com/ssokolow/rar-test-files) repository.
+[RAR test files](https://github.com/ssokolow/rar-test-files) repository, plus
+Netatalk representations of a PICT, Finder Picture, and SimpleText file created
+from them on my Power Mac G4 to ensure that the StuffIt files originating from a
+Macintosh contain test examples of resource forks.
+
+The PICT and Finder Picture files were created using a copy of GraphicConverter
+5.9.5 for Classic MacOS that has been registered using a license key
+[now given away for free](https://www.lemkesoft.de/en/products/graphicconverter/download/download-old-versions/)
+by the original developer.
 
 As for the archives, while Smith Micro Software doesn't sell StuffIt anymore, I
 bought a bunch of copies, including registration keys, off eBay (including a New
-Old Stock one) and their license agreements are transferrable so long as the
-seller doesn't keep any copies.
+Old Stock one) and their license agreements are transferable so long as the
+seller doesn't keep any copies and Macintosh-originated test archives were
+created entirely on my Power Mac G4 to be absolutely sure that the HFS
+Creator/Type codes would be intact.
 
-![](photos/all.jpg)
+The Macintosh-originated archive have had `testfile.txt` converted to use
+Macintosh-style line endings.
+
+**NOTE:** Currently, I believe my copy of Netatalk 3.x is configured to use
+POSIX Extended Attributes in addition to AppleDouble-style `._` files, which
+means some of the data present in the StuffIt archives created on the mac is
+missing from the `sources` folder. (At the very least, probably HFS Creator/Type
+codes.)
+
+I'll try to resolve this later but, as the relevant files were _created_ on the
+Macintosh, using the copies from the StuffIt archives should be a perfectly fine
+workaround for now.
+
+![Picture of all StuffIt discs in original batch](photos/all.jpg)
+
+![Picture of Power Mac G4](photos/IMG_0243_0244_composite.jpeg)
+
+**NOTE:** Image of Power Mac G4 is a composite due to the wildly different
+exposure settings needed to capture both the screen contents and the hardware
+well. See the `source_photos` folder for originals.
 
 **The versions I have licenses for are:**
 
@@ -56,9 +85,7 @@ might have found lying around on the web.
 
 ![](photos/45mac.jpg)
 
-I don't currently have a means to run this (I'll be investigating whether it
-runs under [Executor](<https://en.wikipedia.org/wiki/Executor_(software)>) or
-[Executor 2000](https://github.com/autc04/executor)), but the license is
+I haven't had a chance to try this on my Power Mac G4 yet, but the license is
 included in the back of the print manual:
 
 **Relevant License Terms:**
@@ -72,26 +99,56 @@ included in the back of the print manual:
 
 ![](photos/65mac.jpg)
 
-I got this as part of the same lot as 4.5 for Macintosh but, as I don't have a
-PowerPC Macintosh or the original manual, I don't know what the license on it
-is.
+I got this as part of the same lot as 4.5 for Macintosh and also haven't had a
+chance to try it yet, since I don't want to try downgrading the copy on my Power
+Mac G4 without first installing my IDE-to-SD Card adapter so I can swap "hard
+drives" to _ensure_ that I'm not running the StuffIt Deluxe 6.5 GUI on top of
+the StuffIt Deluxe 7.0 engine when trying to make test files.
 
-[Executor 2000](https://github.com/autc04/executor) claims to have some small
-amount of PowerPC support, so I'll see if I can get it running under that.
+In the absence of terms making any mention of transferring the license, this
+passage of the license should mean that it's legal to buy and sell licenses for
+StuffIt Deluxe 6.5 for Macintosh as long as the seller uninstalls it before
+selling the install media and destroys any backup copies they've made.
+
+> The Software is owned by Aladdin Systems and is protected by United States
+> copyright laws and international treaty provisions. **Therefore, you must
+> treat the Software like any other copyrighted material (e.g., a book or
+> musical recording).** Paying the license fee allows you the right to use one
+> copy of the Software on a single computer. You may not network the Software or
+> otherwise use it or make it available for use on more than one computer at the
+> same time. You may not rent or lease the Software, nor may you modify, adapt,
+> translate, reverse engineer, decompile, or disassemble the Software. If you
+> violate any part of this agreement, your right to use this Software terminates
+> automatically and you must then destroy all copies of the Software in your
+> possession.
 
 **NOTE:** The included license key for StuffIt Deluxe 6.5 for Macintosh does not
 work for the copy of StuffIt Deluxe 7.5 for Windows that's also on the disk.
+This is explicitly made clear in the "Read Me First" file on the disc.
 
 ### StuffIt Deluxe 7.0 for Macintosh
 
 ![](photos/7mac.jpg)
 
-I got this as part of the same lot as 4.5 for Macintosh but, as I don't have a
-PowerPC Macintosh or the original manual, I don't know what the license on it
-is.
+I got this as part of the same lot as 4.5 for Macintosh and installed it on my
+Power Mac G4 Quicksilver 2002 running MacOS 9.2.2.
 
-[Executor 2000](https://github.com/autc04/executor) claims to have some small
-amount of PowerPC support, so I'll see if I can get it running under that.
+In the absence of terms making any mention of transferring the license, this
+passage of the license should mean that it's legal to buy and sell licenses for
+StuffIt Deluxe 7.0 for Macintosh as long as the seller uninstalls it before
+selling the install media and destroys any backup copies they've made.
+
+> The Software is owned by Aladdin Systems and is protected by United States
+> copyright laws and international treaty provisions. **Therefore, you must
+> treat the Software like any other copyrighted material (e.g., a book or
+> musical recording).** Paying the license fee allows you the right to use one
+> copy of the Software on a single computer. You may not network the Software or
+> otherwise use it or make it available for use on more than one computer at the
+> same time. You may not rent or lease the Software, nor may you modify, adapt,
+> translate, reverse engineer, decompile, or disassemble the Software. If you
+> violate any part of this agreement, your right to use this Software terminates
+> automatically and you must then destroy all copies of the Software in your
+> possession.
 
 **NOTE:** The included license key for StuffIt Deluxe 7.0 for Macintosh does not
 work for the copy of StuffIt Deluxe 7.5 for Windows that's also on the disk.
@@ -142,6 +199,8 @@ is for SIT/SITX self-extractors, not Zip ones.
 ### StuffIt Deluxe 9.5 for Windows
 
 ![](photos/stuffit_win_9.5.jpg)
+
+This was purchased later and, as such, is not included in the combined photo.
 
 **Relevant License Terms:**
 
@@ -206,7 +265,8 @@ _very_ surprised if it wasn't a false positive.
 
 As of the time these files were created...
 
-1. [`testfile.stuffit7.win.exe`](https://www.virustotal.com/gui/file/6d9c2ed9cc07f13c0f58230b50baeae8912a5b001e93abfbca705b2ee609102c)
+1. [`testfile.stuffit7_dlx.mac9.exe`](https://www.virustotal.com/gui/file/2adcfce3a073d8b8184025481fb744c16a659f8dacfbac2631c53b3770b78db7),
+   [`testfile.stuffit7.win.exe`](https://www.virustotal.com/gui/file/6d9c2ed9cc07f13c0f58230b50baeae8912a5b001e93abfbca705b2ee609102c)
    and
    [`testfile.stuffit7.win.password.exe`](https://www.virustotal.com/gui/file/2d9964149c0a8bbf11ce991cf1bab6c77071c36b0ae0764c9e04c7e73be81511)
    get five false positives each (which don't agree with each other) out of 67
@@ -235,30 +295,37 @@ As of the time these files were created...
 
 Given that five or six heuristic false positives for a non-UPX-packed
 self-extractor stub is pretty typical in my experience, that each version of
-StuffIt was installed fresh into its own Wine prefix from official, read-only
-install media, and that there were at least five scanners that said nothing was
-wrong for every scanner that complained, I'm not worried.
+StuffIt was installed fresh (for the Windows ones, each into its own brand new
+Wine prefix) from official, read-only install media, and that there were at
+least five scanners that said nothing was wrong for every scanner that
+complained, I'm not worried.
 
 ## Future Plans
 
+- Restore my Power Mac G4 to its original factory state and also generate test
+  files using the MacOS X versions of StuffIt.
+- Install an IDE-SD Card adapter as the boot drive for my Power Mac G4 and set
+  up equivalents to "each in its own fresh Wine prefix" for building test
+  archives for each StuffIt release I own, then look into writing some
+  AppleScript to provide an automated way to re/generate these, similar to the
+  `Makefile` for my RAR test files.
 - Try to get my Macintosh copies of StuffIt working inside
   [Executor](<https://en.wikipedia.org/wiki/Executor_(software)>) or
-  [Executor 2000](https://github.com/autc04/executor)). Failing that, look into
-  how much it would cost to expedite my rainy-day goal to add a suitable vintage
-  mac to my retro-computing collection.
+  [Executor 2000](https://github.com/autc04/executor)) as a means to reduce the
+  number of proprietary components needed to reproduce my results.
 - Generate `.sitx` test files with files in the rest of the formats supported by
   SitX's proprietary recompression option. (Lossless JPEG, JPEG 2000, BMP, GIF,
   TIFF, PSD, PICT, PXM, MP3, ZIP, and PDF)
 - Come up with a way to script the StuffIt GUIs inside Wine so I can have a
   scripted way to re/generate these similar to the `Makefile` for my RAR test
   files.
-- Once I have a scripting solution, ensure I've got test files for every
+- Once I have scripting solutions, ensure I've got test files for every
   combination of things like encryption vs. no encryption, backwards
   compatibility vs. no backwards compatibility, etc.
 - Given that Wikipedia says new StuffIt releases had a bad habit of introducing
   backwards-incompatible format changes, keep an eye out for eBay listings for
-  earlier registered versions, such as StuffIt 5.x for Windows and StuffIt 3.x
-  for Macintosh.
+  earlier registered versions, such as StuffIt 5.x for Windows and versions of
+  StuffIt for Macintosh prior to 3.x.
 
 ## License
 
