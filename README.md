@@ -16,6 +16,17 @@ Unarchiver's open-source
 archives, I decided to step up and create some legally redistributable StuffIt
 test files.
 
+To ensure the correct file format versions, the procedure I follow is:
+
+- For Windows versions of StuffIt, each version was installed in its own fresh
+  Wine prefix to ensure they couldn't see each other's DLLs.
+- For MacOS versions of StuffIt, I replaced the hard drive in my Power Mac G4
+  with an IDE-to-SD Card converter and used a fresh SD card with a clean MacOS
+  9.2 install for each version, and I double-checked that there were no Sherlock
+  matches for "Aladdin", "Drop", "Expander", or "Stuff" before I installed
+  StuffIt. (Photo was taking during the process of making earlier versions of
+  the test files.)
+
 ## Usage
 
 1. The test archives are in the `build` folder.
@@ -85,8 +96,7 @@ might have found lying around on the web.
 
 ![](photos/45mac.jpg)
 
-I haven't had a chance to try this on my Power Mac G4 yet, but the license is
-included in the back of the print manual:
+The license is included in the back of the print manual and is as follows:
 
 **Relevant License Terms:**
 
@@ -99,11 +109,7 @@ included in the back of the print manual:
 
 ![](photos/65mac.jpg)
 
-I got this as part of the same lot as 4.5 for Macintosh and also haven't had a
-chance to try it yet, since I don't want to try downgrading the copy on my Power
-Mac G4 without first installing my IDE-to-SD Card adapter so I can swap "hard
-drives" to _ensure_ that I'm not running the StuffIt Deluxe 6.5 GUI on top of
-the StuffIt Deluxe 7.0 engine when trying to make test files.
+I got this as part of the same lot as 4.5 for Macintosh.
 
 In the absence of terms making any mention of transferring the license, this
 passage of the license should mean that it's legal to buy and sell licenses for
@@ -130,8 +136,7 @@ This is explicitly made clear in the "Read Me First" file on the disc.
 
 ![](photos/7mac.jpg)
 
-I got this as part of the same lot as 4.5 for Macintosh and installed it on my
-Power Mac G4 Quicksilver 2002 running MacOS 9.2.2.
+I got this as part of the same lot as 4.5 for Macintosh.
 
 In the absence of terms making any mention of transferring the license, this
 passage of the license should mean that it's legal to buy and sell licenses for
