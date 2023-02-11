@@ -22,10 +22,10 @@ To ensure the correct file format versions, the procedure I follow is:
   Wine prefix to ensure they couldn't see each other's DLLs.
 - For MacOS versions of StuffIt, I replaced the hard drive in my Power Mac G4
   with an IDE-to-SD Card converter and used a fresh SD card with a clean MacOS
-  9.2 install for each version, and I double-checked that there were no Sherlock
-  matches for "Aladdin", "Drop", "Expander", or "Stuff" before I installed
-  StuffIt. (Photo was taking during the process of making earlier versions of
-  the test files.)
+  9.2 or MacOS X 10.1.3 install for each version, and I double-checked that
+  there were no Sherlock matches for "Aladdin", "Drop", "Expander", or "Stuff"
+  before I installed StuffIt. (Photo was taking during the process of making
+  earlier versions of the test files.)
 
 ## Usage
 
@@ -298,12 +298,20 @@ As of the time these files were created...
    I'm guessing they're just panicking at the sight of a UPX-packed
    self-extractor stub.
 
+...etc. etc. etc.
+
 Given that five or six heuristic false positives for a non-UPX-packed
 self-extractor stub is pretty typical in my experience, that each version of
 StuffIt was installed fresh (for the Windows ones, each into its own brand new
 Wine prefix) from official, read-only install media, and that there were at
 least five scanners that said nothing was wrong for every scanner that
 complained, I'm not worried.
+
+(Especially given that the scanners in question can't agree on whether the
+self-extractor stub from a fresh install of StuffIt from an official retail
+CD-ROM onto a fresh install of MacOS onto a blank hard drive from an official
+Apple install CD-ROM, and stuck onto an archive containing no executable files,
+is adware, a trojan, or a worm.)
 
 ## Future Plans
 
