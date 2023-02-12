@@ -315,30 +315,27 @@ is adware, a trojan, or a worm.)
 
 ## Future Plans
 
-- Restore my Power Mac G4 to its original factory state and also generate test
-  files using the MacOS X versions of StuffIt.
-- Install an IDE-SD Card adapter as the boot drive for my Power Mac G4 and set
-  up equivalents to "each in its own fresh Wine prefix" for building test
-  archives for each StuffIt release I own, then look into writing some
-  AppleScript to provide an automated way to re/generate these, similar to the
+- Generate `.sitx` test files with files in the rest of the formats supported by
+  SitX's proprietary recompression option. (Lossless JPEG, JPEG 2000, BMP, GIF,
+  TIFF, PSD, PICT, PXM, MP3, ZIP, and PDF)
+- Look into writing some AppleScript to provide an automated way to re/generate
+  the Mac-originated ones, similar to the `Makefile` for my RAR test files.
+- Come up with a way to script the StuffIt GUIs inside Wine so I can have a
+  scripted way to re/generate the Windows-originated ones similar to the
   `Makefile` for my RAR test files.
+  ([LDTP/Cobra](https://en.wikipedia.org/wiki/Linux_Desktop_Testing_Project)?)
 - Try to get my Macintosh copies of StuffIt working inside
   [Executor](<https://en.wikipedia.org/wiki/Executor_(software)>) or
   [Executor 2000](https://github.com/autc04/executor)) as a means to reduce the
   number of proprietary components needed to reproduce my results.
-- Generate `.sitx` test files with files in the rest of the formats supported by
-  SitX's proprietary recompression option. (Lossless JPEG, JPEG 2000, BMP, GIF,
-  TIFF, PSD, PICT, PXM, MP3, ZIP, and PDF)
-- Come up with a way to script the StuffIt GUIs inside Wine so I can have a
-  scripted way to re/generate these similar to the `Makefile` for my RAR test
-  files.
 - Once I have scripting solutions, ensure I've got test files for every
   combination of things like encryption vs. no encryption, backwards
   compatibility vs. no backwards compatibility, etc.
 - Given that Wikipedia says new StuffIt releases had a bad habit of introducing
   backwards-incompatible format changes, keep an eye out for eBay listings for
-  earlier registered versions, such as StuffIt 5.x for Windows and versions of
-  StuffIt for Macintosh prior to 3.x.
+  earlier registered versions, such as registered non-Deluxe releases of
+  StuffIt, StuffIt for Macintosh versions 1.5.1 or lower and versions prior to
+  3.x, and Windows versions prior to 7.0.
 
 ## License
 
