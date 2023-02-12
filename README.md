@@ -23,9 +23,9 @@ To ensure the correct file format versions, the procedure I follow is:
 - For MacOS versions of StuffIt, I replaced the hard drive in my Power Mac G4
   with an IDE-to-SD Card converter and used a fresh SD card with a clean MacOS
   9.2 or MacOS X 10.1.3 install for each version, and I double-checked that
-  there were no Sherlock matches for "Aladdin", "Drop", "Expander", or "Stuff"
-  before I installed StuffIt. (Photo was taking during the process of making
-  earlier versions of the test files.)
+  there were no relevant Sherlock matches for "Aladdin", "Drop", "Expander", or
+  "Stuff" before I installed StuffIt. (Photo was taking during the process of
+  making earlier versions of the test files.)
 
 ## Usage
 
