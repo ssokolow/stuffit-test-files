@@ -4,7 +4,7 @@ This repository contains a collection of minimal, legally redistributable
 StuffIt archives suitable for inclusion in test suites for programs that
 incorporate StuffIt extraction functionality.
 
-**See Also:** [RAR Test Files](https://github.com/ssokolow/rar-test-files)
+**See Also:** [RAR Test Files](https://github.com/ssokolow/rar-test-files), [DiskDoubler Test Files](https://github.com/ssokolow/diskdoubler-test-files/)
 
 ## Explain
 
