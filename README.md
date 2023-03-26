@@ -331,6 +331,10 @@ is adware, a trojan, or a worm.)
 - Once I have scripting solutions, ensure I've got test files for every
   combination of things like encryption vs. no encryption, backwards
   compatibility vs. no backwards compatibility, etc.
+- Once I have a mac that can run a version of Mac OS older than 9.2 (or the
+  special version of 9.1 that Norton Systemworks for Mac boots into), and, thus,
+  can run StuffIt Deluxe 5.0 without it crashing instantly, make some StuffIt
+  Deluxe 5.0 test files.
 - Given that Wikipedia says new StuffIt releases had a bad habit of introducing
   backwards-incompatible format changes, keep an eye out for eBay listings for
   earlier registered versions, such as registered non-Deluxe releases of
