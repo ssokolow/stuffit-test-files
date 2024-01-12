@@ -325,7 +325,7 @@ is adware, a trojan, or a worm.)
 - Regenerate files from versions which support Faster vs. Better compression to
   provide both variants.
 - Try out the copies of StuffIt 5.0 and 5.5 that I acquired... likely with the
-  help of the 5.0.2 and 5.1 update patches I found since I don't think the
+  help of the 5.0.2, 5.1, and/or 5.5.1 update patches I found since I don't think the
   base versions are compatible with Mac OS 9.2.
 - Generate `.sitx` test files with files in the rest of the formats supported by
   SitX's proprietary recompression option. (Lossless JPEG, JPEG 2000, BMP, GIF,
