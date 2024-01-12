@@ -4,7 +4,8 @@ This repository contains a collection of minimal, legally redistributable
 StuffIt archives suitable for inclusion in test suites for programs that
 incorporate StuffIt extraction functionality.
 
-**See Also:** [RAR Test Files](https://github.com/ssokolow/rar-test-files), [DiskDoubler Test Files](https://github.com/ssokolow/diskdoubler-test-files/)
+**See Also:** [RAR Test Files](https://github.com/ssokolow/rar-test-files),
+[DiskDoubler Test Files](https://github.com/ssokolow/diskdoubler-test-files/)
 
 ## Explain
 
@@ -315,15 +316,20 @@ is adware, a trojan, or a worm.)
 
 ## Future Plans
 
-- Generate `.sitx` test files with files in the rest of the formats supported by
-  SitX's proprietary recompression option. (Lossless JPEG, JPEG 2000, BMP, GIF,
-  TIFF, PSD, PICT, PXM, MP3, ZIP, and PDF)
 - Look into writing some AppleScript to provide an automated way to re/generate
   the Mac-originated ones, similar to the `Makefile` for my RAR test files.
 - Come up with a way to script the StuffIt GUIs inside Wine so I can have a
   scripted way to re/generate the Windows-originated ones similar to the
   `Makefile` for my RAR test files.
   ([LDTP/Cobra](https://en.wikipedia.org/wiki/Linux_Desktop_Testing_Project)?)
+- Regenerate files from versions which support Faster vs. Better compression to
+  provide both variants.
+- Try out the copies of StuffIt 5.0 and 5.5 that I acquired... likely with the
+  help of the 5.0.2 and 5.1 update patches I found since I don't think the
+  base versions are compatible with Mac OS 9.2.
+- Generate `.sitx` test files with files in the rest of the formats supported by
+  SitX's proprietary recompression option. (Lossless JPEG, JPEG 2000, BMP, GIF,
+  TIFF, PSD, PICT, PXM, MP3, ZIP, and PDF)
 - Try to get my Macintosh copies of StuffIt working inside
   [Executor](<https://en.wikipedia.org/wiki/Executor_(software)>) or
   [Executor 2000](https://github.com/autc04/executor)) as a means to reduce the
